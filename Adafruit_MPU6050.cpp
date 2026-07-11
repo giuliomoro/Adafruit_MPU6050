@@ -32,9 +32,9 @@
  *     v1.0 - First release
  */
 
-#include "Arduino.h"
-#include <Wire.h>
-
+#include <libraries/BelaArduino/Arduino.h>
+#include <libraries/BelaArduino/Wire.h>
+#include <Adafruit_BusIO_Register.h>
 #include <Adafruit_MPU6050.h>
 
 /*!

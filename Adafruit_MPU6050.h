@@ -17,11 +17,11 @@
 #ifndef _ADAFRUIT_MPU6050_H
 #define _ADAFRUIT_MPU6050_H
 
-#include "Arduino.h"
-#include <Adafruit_BusIO_Register.h>
-#include <Adafruit_I2CDevice.h>
+#include <libraries/BelaArduino/Arduino.h>
+#include <libraries/BelaArduino/Adafruit_BusIO_Register.h>
+#include <libraries/BelaArduino/Adafruit_I2CDevice.h>
 #include <Adafruit_Sensor.h>
-#include <Wire.h>
+#include <libraries/BelaArduino/Wire.h>
 
 #define MPU6050_I2CADDR_DEFAULT 0x68 ///< MPU6050 default i2c address w/ AD0 low
 #define MPU6050_DEVICE_ID 0x68       ///< The correct MPU6050_WHO_AM_I value
